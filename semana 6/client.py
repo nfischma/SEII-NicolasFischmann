@@ -4,7 +4,7 @@ import time
 
 PORT = 5050
 FORMATO = 'utf-8'
-SERVER = "192.168.0.109"
+SERVER = socket.gethostbyname(socket.gethostname())#"192.168.0.109"
 ADDR = (SERVER, PORT)
 
 #abre o socket e se conecta no endereço definido
